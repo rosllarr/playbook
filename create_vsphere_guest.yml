@@ -1,0 +1,18 @@
+- hosts: all
+  tasks:
+    - name: create vsphere guest
+      delegate_to: localhost
+      community.vmware.vmware_guest:
+        validate_certs: false
+        hostname: "{{ hostname }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        name: "{{ name }}"
+        folder: "{{ folder }}"
+        hardware: "{{ hardware }}"
+        network: "{{ network }}"
+        disk: "{{ disk }}"
+        cluster: "{{ cluster }}"
+        esxi_hostname: "{{ esxi_hostname }}"
+        state: "{{ state }}"
+        guest_id: "{{ guest_id }}"
