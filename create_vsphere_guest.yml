@@ -10,7 +10,7 @@
         name: "{{ name }}"
         folder: "{{ folder }}"
         hardware: "{{ hardware }}"
-        network: "{{ network }}"
+        networks: "{{ networks }}"
         disk: "{{ disk }}"
         cluster: "{{ cluster }}"
         state: "{{ state }}"
