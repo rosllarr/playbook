@@ -13,6 +13,5 @@
         network: "{{ network }}"
         disk: "{{ disk }}"
         cluster: "{{ cluster }}"
-        esxi_hostname: "{{ esxi_hostname }}"
         state: "{{ state }}"
         guest_id: "{{ guest_id }}"
