@@ -7,6 +7,7 @@
         hostname: "{{ hostname }}"
         username: "{{ username }}"
         password: "{{ password }}"
+        datacenter: "{{ datacenter }}"
         name: "{{ name }}"
         folder: "{{ folder }}"
         hardware: "{{ hardware }}"
