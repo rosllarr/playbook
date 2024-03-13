@@ -10,6 +10,7 @@
         datacenter: "{{ datacenter }}"
         name: "{{ name }}"
         folder: "{{ folder }}"
+        datastore: "{{ datastore }}"
         hardware: "{{ hardware }}"
         networks: "{{ networks }}"
         disk: "{{ disk }}"
